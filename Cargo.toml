@@ -1,0 +1,15 @@
+[package]
+name = "anyhow-loc"
+version = "0.1.0"
+edition = "2021"
+authors = ["qyuzh <qyuzhang22@gmail.com>"]
+categories = ["rust-patterns", "no-std"]
+keywords = ["error", "error-handling", "anyhow"]
+description = "anyhow with location"
+license = "MIT"
+documentation = "https://docs.rs/anyhow-loc"
+rust-version = "1.56"
+repository = "https://github.com/qyuzh/anyhow-loc"
+
+[dependencies]
+anyhow = "1.0.89"
