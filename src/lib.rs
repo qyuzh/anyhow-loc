@@ -72,8 +72,8 @@ mod tests {
     #[should_panic(expected = "error 2")]
     fn it_with_location() {
         let t = String::from("error 2");
-        f().location(msg!("error 1")) // t
-            .location(msg!("{}", t))
+        f().with_location(|| msg!("error 1")) // t
+            .with_location(|| msg!("{}", t))
             .unwrap();
     }
 }
